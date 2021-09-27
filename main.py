@@ -14,7 +14,7 @@ xpath = '//article[@data-testid="tweet"]'
 image_path = './images/ims/'
 dataset_image_path = './images/'
 driver_path = '/usr/local/bin/geckodriver'
-model = load_model('crypto_checking_network_vID.h5')
+model = load_model("crypto_checking_network_vID.h5")
 
 parser = myparser.Parser(link, xpath, image_path, driver_path)
 
