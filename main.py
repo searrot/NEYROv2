@@ -11,10 +11,10 @@ import requests
 bot = telebot.TeleBot(token="1993230425:AAEqbDCNCDGDcAJ00w1nBmk9loenYbMRcbc")
 link = 'https://twitter.com/IKudryavtzeff'
 xpath = '//article[@data-testid="tweet"]'
-image_path = './images/ims/'
-dataset_image_path = './images/'
+image_path = '/projects/NEYROv2/images/ims/'
+dataset_image_path = '/projects/NEYROv2/images/'
 driver_path = '/usr/local/bin/geckodriver'
-model = load_model("./crypto_checking_network_vID.h5")
+model = load_model("/projects/NEYROv2/crypto_checking_network_vID.h5")
 
 parser = myparser.Parser(link, xpath, image_path, driver_path)
 
